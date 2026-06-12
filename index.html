@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horta Medicinal Inteligente</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>🌿 Horta Medicinal Inteligente</h1>
+<p>Pesquise sintomas e conheça plantas medicinais</p>
+</header>
+
+<section class="pesquisa">
+<h2>Assistente de Sintomas</h2>
+<input id="sintoma" placeholder="Digite um sintoma">
+<button onclick="pesquisar()">Pesquisar</button>
+<div id="resultado"></div>
+</section>
+
+<section>
+<h2>Plantas da Horta</h2>
+<div class="cards">
+<div class="card"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd"><h3>Camomila</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399"><h3>Hortelã</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf"><h3>Alecrim</h3></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352"><h3>Capim-cidreira</h3></div>
+</div>
+</section>
+
+<section>
+<h2>QR Code da Horta</h2>
+<img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://github.com">
+<p>Troque o link pelo endereço do seu site quando publicar.</p>
+</section>
+
+<footer>Projeto Horta Medicinal Inteligente</footer>
+<script src="script.js"></script>
+</body>
+</html>
